@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct HackerNewsDetailView: View {
+    let url: String?
+    let title: String?
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HackerNewsWebView(urlString: url)
+            .navigationTitle(title ?? "")
     }
 }
 
 #Preview {
-    HackerNewsDetailView()
+    HackerNewsDetailView(url: "www.google.com", title: "Google")
 }

@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct SearchBar: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    @Binding var text: String
 
-#Preview {
-    SearchBar()
+    var body: some View {
+        HStack {
+            TextField("Search", text: $text)
+                .padding(.horizontal)
+                .padding(.vertical, 8)
+                .background(Color(.systemGray5))
+                .cornerRadius(8)
+                .padding(.horizontal)
+        }
+    }
 }

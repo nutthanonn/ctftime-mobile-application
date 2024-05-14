@@ -1,22 +1,19 @@
-//
-//  ContentView.swift
-//  CTFTimeApp
-//
-//  Created by Nutthanon on 21/4/2567 BE.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+        TabView {
+            ProspectsView(filter: .home)
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            
+            ProspectsView(filter: .hacker_news)
+                .tabItem {
+                    Label("Hacker News", systemImage: "newspaper")
+                }
+        } // close tab view
+    } // close view
 }
 
 #Preview {

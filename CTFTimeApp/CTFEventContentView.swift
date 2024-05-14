@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct CTFEventContentView: View {
+    let day: Int
+    let hour: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: "clock.fill")
+            .foregroundColor(.orange)
+            .imageScale(.small)
+        
+        if day == 0 {
+            Text("\(hour) hours")
+                    .font(.system(size: 10))
+                    .foregroundColor(.gray)
+        }
+        else if hour == 0 {
+            Text("\(day) day")
+                    .font(.system(size: 10))
+                    .foregroundColor(.gray)
+        }
+        else {
+            Text("\(day) day \(hour) hours")
+                    .font(.system(size: 10))
+                    .foregroundColor(.gray)
+        }
     }
-}
-
-#Preview {
-    CTFEventContentView()
 }

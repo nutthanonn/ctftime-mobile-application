@@ -12,7 +12,9 @@ class CTFStartEventManager: ObservableObject {
     @Published var events = [CTFEventsModel]()
     
     func fetchData() {
-        if let url = URL(string: "https://ctftime.org/api/v1/events/?start=1714762363") {
+        let currentTime = Date().timeIntervalSince1970
+        
+        if let url = URL(string: "https://ctftime.org/api/v1/events/?start=\(Int(currentTime))") {
             let session = URLSession(configuration: .default)
             
             let task = session.dataTask(with: url) { data, _, error in

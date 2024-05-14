@@ -11,6 +11,27 @@
 		0433B9172BD4CCB100BB1542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B9162BD4CCB100BB1542 /* ContentView.swift */; };
 		0433B9192BD4CCB300BB1542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0433B9182BD4CCB300BB1542 /* Assets.xcassets */; };
 		0433B91C2BD4CCB300BB1542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0433B91B2BD4CCB300BB1542 /* Preview Assets.xcassets */; };
+		0433B9232BD4CDF300BB1542 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B9222BD4CDF300BB1542 /* ProspectsView.swift */; };
+		0433B9292BD4D83900BB1542 /* HackerNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B9282BD4D83900BB1542 /* HackerNewsView.swift */; };
+		0433B92B2BD4D86B00BB1542 /* HackerNewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B92A2BD4D86B00BB1542 /* HackerNewsManager.swift */; };
+		0433B92D2BD4D88900BB1542 /* HackerNewsPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B92C2BD4D88900BB1542 /* HackerNewsPostModel.swift */; };
+		0433B92F2BD4D8FD00BB1542 /* HackerNewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B92E2BD4D8FD00BB1542 /* HackerNewsDetailView.swift */; };
+		0433B9312BD4D91200BB1542 /* HackerNewsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433B9302BD4D91200BB1542 /* HackerNewsWebView.swift */; };
+		048469E22BD81B7C00ECFD8A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048469E12BD81B7C00ECFD8A /* DateExtension.swift */; };
+		0488BE2E2BE61E4500888186 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE2D2BE61E4500888186 /* EventRow.swift */; };
+		0488BE302BE61EC100888186 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE2F2BE61EC100888186 /* SafariView.swift */; };
+		0488BE342BE6766300888186 /* CTFTeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE332BE6766300888186 /* CTFTeamManager.swift */; };
+		0488BE362BE676A600888186 /* CTFTeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE352BE676A600888186 /* CTFTeamModel.swift */; };
+		0488BE382BE679F800888186 /* CTFTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE372BE679F800888186 /* CTFTeamView.swift */; };
+		0488BE3A2BE6A34100888186 /* CTFTeamContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE392BE6A34100888186 /* CTFTeamContent.swift */; };
+		048C826E2BD7899800CA610F /* CTFEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C826D2BD7899800CA610F /* CTFEventManager.swift */; };
+		048C82702BD78AF500CA610F /* CTFEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C826F2BD78AF500CA610F /* CTFEventModel.swift */; };
+		04930E602BE75D79004B1748 /* EventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04930E5F2BE75D79004B1748 /* EventEditView.swift */; };
+		04B9E1BF2BD78EBB0026CBFE /* CTFEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9E1BE2BD78EBB0026CBFE /* CTFEventView.swift */; };
+		04B9E1C12BD7A43E0026CBFE /* CTFEventContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9E1C02BD7A43E0026CBFE /* CTFEventContentView.swift */; };
+		04B9E1C52BD7A94C0026CBFE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9E1C42BD7A94C0026CBFE /* SearchBar.swift */; };
+		04D5E1122BE5DC49008FBAA3 /* CarouselSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E1112BE5DC49008FBAA3 /* CarouselSlider.swift */; };
+		04FD8C4A2BF2023E00366C28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FD8C492BF2023E00366C28 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,27 @@
 		0433B9162BD4CCB100BB1542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0433B9182BD4CCB300BB1542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0433B91B2BD4CCB300BB1542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0433B9222BD4CDF300BB1542 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		0433B9282BD4D83900BB1542 /* HackerNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsView.swift; sourceTree = "<group>"; };
+		0433B92A2BD4D86B00BB1542 /* HackerNewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsManager.swift; sourceTree = "<group>"; };
+		0433B92C2BD4D88900BB1542 /* HackerNewsPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsPostModel.swift; sourceTree = "<group>"; };
+		0433B92E2BD4D8FD00BB1542 /* HackerNewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsDetailView.swift; sourceTree = "<group>"; };
+		0433B9302BD4D91200BB1542 /* HackerNewsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsWebView.swift; sourceTree = "<group>"; };
+		048469E12BD81B7C00ECFD8A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		0488BE2D2BE61E4500888186 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		0488BE2F2BE61EC100888186 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		0488BE332BE6766300888186 /* CTFTeamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFTeamManager.swift; sourceTree = "<group>"; };
+		0488BE352BE676A600888186 /* CTFTeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFTeamModel.swift; sourceTree = "<group>"; };
+		0488BE372BE679F800888186 /* CTFTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFTeamView.swift; sourceTree = "<group>"; };
+		0488BE392BE6A34100888186 /* CTFTeamContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFTeamContent.swift; sourceTree = "<group>"; };
+		048C826D2BD7899800CA610F /* CTFEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFEventManager.swift; sourceTree = "<group>"; };
+		048C826F2BD78AF500CA610F /* CTFEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFEventModel.swift; sourceTree = "<group>"; };
+		04930E5F2BE75D79004B1748 /* EventEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditView.swift; sourceTree = "<group>"; };
+		04B9E1BE2BD78EBB0026CBFE /* CTFEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFEventView.swift; sourceTree = "<group>"; };
+		04B9E1C02BD7A43E0026CBFE /* CTFEventContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFEventContentView.swift; sourceTree = "<group>"; };
+		04B9E1C42BD7A94C0026CBFE /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		04D5E1112BE5DC49008FBAA3 /* CarouselSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselSlider.swift; sourceTree = "<group>"; };
+		04FD8C492BF2023E00366C28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +95,29 @@
 			children = (
 				0433B9142BD4CCB100BB1542 /* CTFTimeAppApp.swift */,
 				0433B9162BD4CCB100BB1542 /* ContentView.swift */,
+				0433B9222BD4CDF300BB1542 /* ProspectsView.swift */,
+				04B9E1C42BD7A94C0026CBFE /* SearchBar.swift */,
+				0433B9282BD4D83900BB1542 /* HackerNewsView.swift */,
+				0433B92E2BD4D8FD00BB1542 /* HackerNewsDetailView.swift */,
+				0433B9302BD4D91200BB1542 /* HackerNewsWebView.swift */,
+				0433B92A2BD4D86B00BB1542 /* HackerNewsManager.swift */,
+				0433B92C2BD4D88900BB1542 /* HackerNewsPostModel.swift */,
+				04B9E1BE2BD78EBB0026CBFE /* CTFEventView.swift */,
+				0488BE2F2BE61EC100888186 /* SafariView.swift */,
+				0488BE2D2BE61E4500888186 /* EventRow.swift */,
+				04930E5F2BE75D79004B1748 /* EventEditView.swift */,
+				04B9E1C02BD7A43E0026CBFE /* CTFEventContentView.swift */,
+				048C826D2BD7899800CA610F /* CTFEventManager.swift */,
+				048C826F2BD78AF500CA610F /* CTFEventModel.swift */,
+				04D5E1112BE5DC49008FBAA3 /* CarouselSlider.swift */,
+				048469E12BD81B7C00ECFD8A /* DateExtension.swift */,
+				0488BE372BE679F800888186 /* CTFTeamView.swift */,
+				0488BE392BE6A34100888186 /* CTFTeamContent.swift */,
+				0488BE332BE6766300888186 /* CTFTeamManager.swift */,
+				0488BE352BE676A600888186 /* CTFTeamModel.swift */,
 				0433B9182BD4CCB300BB1542 /* Assets.xcassets */,
 				0433B91A2BD4CCB300BB1542 /* Preview Content */,
+				04FD8C492BF2023E00366C28 /* Launch Screen.storyboard */,
 			);
 			path = CTFTimeApp;
 			sourceTree = "<group>";
@@ -83,6 +146,8 @@
 			dependencies = (
 			);
 			name = CTFTimeApp;
+			packageProductDependencies = (
+			);
 			productName = CTFTimeApp;
 			productReference = 0433B9112BD4CCB100BB1542 /* CTFTimeApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +176,8 @@
 				Base,
 			);
 			mainGroup = 0433B9082BD4CCB100BB1542;
+			packageReferences = (
+			);
 			productRefGroup = 0433B9122BD4CCB100BB1542 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD8C4A2BF2023E00366C28 /* Launch Screen.storyboard in Resources */,
 				0433B91C2BD4CCB300BB1542 /* Preview Assets.xcassets in Resources */,
 				0433B9192BD4CCB300BB1542 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +205,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B9E1BF2BD78EBB0026CBFE /* CTFEventView.swift in Sources */,
+				048C82702BD78AF500CA610F /* CTFEventModel.swift in Sources */,
+				0433B92D2BD4D88900BB1542 /* HackerNewsPostModel.swift in Sources */,
+				0488BE3A2BE6A34100888186 /* CTFTeamContent.swift in Sources */,
+				0488BE362BE676A600888186 /* CTFTeamModel.swift in Sources */,
+				0433B9232BD4CDF300BB1542 /* ProspectsView.swift in Sources */,
+				0488BE342BE6766300888186 /* CTFTeamManager.swift in Sources */,
+				0488BE302BE61EC100888186 /* SafariView.swift in Sources */,
+				0488BE382BE679F800888186 /* CTFTeamView.swift in Sources */,
+				04D5E1122BE5DC49008FBAA3 /* CarouselSlider.swift in Sources */,
+				048C826E2BD7899800CA610F /* CTFEventManager.swift in Sources */,
+				0433B9312BD4D91200BB1542 /* HackerNewsWebView.swift in Sources */,
+				0488BE2E2BE61E4500888186 /* EventRow.swift in Sources */,
+				04930E602BE75D79004B1748 /* EventEditView.swift in Sources */,
+				0433B9292BD4D83900BB1542 /* HackerNewsView.swift in Sources */,
+				04B9E1C52BD7A94C0026CBFE /* SearchBar.swift in Sources */,
+				048469E22BD81B7C00ECFD8A /* DateExtension.swift in Sources */,
+				0433B92F2BD4D8FD00BB1542 /* HackerNewsDetailView.swift in Sources */,
+				0433B92B2BD4D86B00BB1542 /* HackerNewsManager.swift in Sources */,
+				04B9E1C12BD7A43E0026CBFE /* CTFEventContentView.swift in Sources */,
 				0433B9172BD4CCB100BB1542 /* ContentView.swift in Sources */,
 				0433B9152BD4CCB100BB1542 /* CTFTimeAppApp.swift in Sources */,
 			);
@@ -277,6 +365,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +394,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
